@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-color: thistle;
+    }
+    .Rect{
+        position: relative;
+        width: 1383px;
+        height: 500px;
+        border: 2px solid purple;
+        left: 5px;
+        top: 5px;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        background-color:rgba(156, 22, 156, 0.867);
+    }
+    li{
+        padding: 20px;
+        color: white;
+    }
+
+</style>
+<body>
+    <div class="cards">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact us</li>
+            </ul>
+        </nav>
+        <div class="Rect"></div>
+    </div>
+</body>
+</html>
